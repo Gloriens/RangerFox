@@ -1,0 +1,1047 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16218 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ogzha/My project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61661
+Successfully changed project path to: C:/Users/ogzha/My project
+C:/Users/ogzha/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28752] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2210291902 [EditorId] 2210291902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I57J1BA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28752] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2210291902 [EditorId] 2210291902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-I57J1BA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 18.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ogzha/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019727 seconds.
+- Loaded All Assemblies, in  0.601 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.282 seconds
+Domain Reload Profiling: 880ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (173ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (283ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 1275ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3675.
+Memory consumption went from 124.9 MB to 124.8 MB.
+Total: 3.580100 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.193500 ms MarkObjects: 3.043200 ms  DeleteObjects: 0.091000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 404065.336547 seconds.
+  path: Assets/Models/Sword And Shield Idle.fbx
+  artifactKey: Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword And Shield Idle.fbx using Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d8d496b6c4c65d066537ca3ec47c55') in 0.755293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 35.187429 seconds.
+  path: Assets/Models/Idle.anim
+  artifactKey: Guid(cc193be26b9784d4aaf641d076edb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Idle.anim using Guid(cc193be26b9784d4aaf641d076edb1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aa671722e70d20f42e35f0f5284254') in 0.002311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 111.158651 seconds.
+  path: Assets/Models/Sword And Shield Idle.fbx
+  artifactKey: Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword And Shield Idle.fbx using Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451dbb99af320d4e056df597945c8348') in 0.866124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 48.507155 seconds.
+  path: Assets/Models/mixamo.com.anim
+  artifactKey: Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/mixamo.com.anim using Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005fde82997bc91ab2fc341b8f2ebb67') in 0.006075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.336049 seconds.
+  path: Assets/Models/Jacob.controller
+  artifactKey: Guid(f8805a3a67ad3c24a98cbaafe5508df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jacob.controller using Guid(f8805a3a67ad3c24a98cbaafe5508df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3e2b0df4fae6792d5c47dd25b0271') in 0.006320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 14.634979 seconds.
+  path: Assets/Models/Idle.anim
+  artifactKey: Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Idle.anim using Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a13b20396700af4f9af284742976531') in 0.006021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 79.779888 seconds.
+  path: Assets/Models/Idle1.anim
+  artifactKey: Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Idle1.anim using Guid(7df046df1d6e93f48ac76a2a9552ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9cf669dee7d3361cf2aad5311d5bd5') in 0.006292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 61.473095 seconds.
+  path: Assets/Models/Sword And Shield Idle.fbx
+  artifactKey: Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sword And Shield Idle.fbx using Guid(a28e95e1cabff7443a3318feae7187c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbef06d8a476285ef24f3a8595f81f3') in 0.513270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.779 seconds
+Refreshing native plugins compatible for Editor in 6.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.265 seconds
+Domain Reload Profiling: 2039ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1266ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (69.3 KB). Loaded Objects now: 3649.
+Memory consumption went from 131.0 MB to 130.9 MB.
+Total: 3.278900 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.266800 ms MarkObjects: 2.606100 ms  DeleteObjects: 0.135700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 888.078525 seconds.
+  path: Assets/Mdeol
+  artifactKey: Guid(1855de54744519f44852fbe27069c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mdeol using Guid(1855de54744519f44852fbe27069c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890b93014227e92a9ef647e6610b5f33') in 0.002743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.290828 seconds.
+  path: Assets/Player Model&Anim
+  artifactKey: Guid(1855de54744519f44852fbe27069c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim using Guid(1855de54744519f44852fbe27069c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339d7d56a48477cf5ae4f9a589fe505c') in 0.000598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.572745 seconds.
+  path: Assets/Player Model&Anim/Great Sword Run.fbx
+  artifactKey: Guid(29696c0973164f34aba90490c6336f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Great Sword Run.fbx using Guid(29696c0973164f34aba90490c6336f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a09f3f75451ec8e8531ef18dc84e65') in 0.727398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Player Model&Anim/Jacob.fbx
+  artifactKey: Guid(d88eeef38cf287e43add6d115da8ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.fbx using Guid(d88eeef38cf287e43add6d115da8ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db2cc0d4852d1cdcff30a6374128dff') in 0.469616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f024fd8a915187cb48015e1b370f4f65') in 0.396081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 257
+========================================================================
+Received Import Request.
+  Time since last request: 13.965143 seconds.
+  path: Assets/Player Model&Anim/Jacob.fbx
+  artifactKey: Guid(d88eeef38cf287e43add6d115da8ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.fbx using Guid(d88eeef38cf287e43add6d115da8ee1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ede3e17717fdd0fbb9b7658f011397') in 0.402881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 219
+========================================================================
+Received Import Request.
+  Time since last request: 14.376624 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b6dfdb8a8d873eb2a68585c12f3719') in 0.002182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.988283 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f249a3b7358e621cf301efb5f6268e2') in 0.018877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 393
+========================================================================
+Received Import Request.
+  Time since last request: 58.890705 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7122a9da87c1e1ade66eda56198840ee') in 0.014799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 391
+========================================================================
+Received Import Request.
+  Time since last request: 39.678895 seconds.
+  path: Assets/Player Model&Anim/Idle.anim
+  artifactKey: Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Idle.anim using Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5122e6dcdc326c45db95d5cd3b1ed8') in 0.001354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.035460 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd911a22b8bcc255d13d8d5d7458a8861') in 0.471668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 95.546947 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd1fbbf954f5c9ec19423168e2d3912') in 0.501185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 259
+========================================================================
+Received Import Request.
+  Time since last request: 4.028861 seconds.
+  path: Assets/Player Model&Anim/Idle.anim
+  artifactKey: Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Idle.anim using Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a84418600ad9ee43d0b6a3f36bf66') in 0.003102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.480887 seconds.
+  path: Assets/Player Model&Anim/Jacob.controller
+  artifactKey: Guid(fc610de86eeb97d46903b0087ec2e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.controller using Guid(fc610de86eeb97d46903b0087ec2e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febf0254229bbb5ff3bc5ed32c9c705d') in 0.002138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.652 seconds
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.557 seconds
+Domain Reload Profiling: 2204ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (704ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3652.
+Memory consumption went from 133.1 MB to 133.1 MB.
+Total: 5.034600 ms (FindLiveObjects: 0.456500 ms CreateObjectMapping: 0.481300 ms MarkObjects: 3.994000 ms  DeleteObjects: 0.101100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 539.519565 seconds.
+  path: Assets/Player Model&Anim/JacobRig.fbx
+  artifactKey: Guid(c864fb069721ff84aa8c9e7e38036104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/JacobRig.fbx using Guid(c864fb069721ff84aa8c9e7e38036104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68584a7827bcefea964c7bc5626e6e73') in 0.717728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1688
+========================================================================
+Received Import Request.
+  Time since last request: 16.670797 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb704ad37b34a72df213d3a9b1fb5ef') in 0.002573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 8.256909 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5ed78bfc7e12d04f6766098e6e90ad') in 0.066780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3319
+========================================================================
+Received Import Request.
+  Time since last request: 67.799323 seconds.
+  path: Assets/Player Model&Anim/Idle.anim
+  artifactKey: Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Idle.anim using Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e6b3801d6d0c9768832278260fd149') in 0.004551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 45.077273 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96ef6ee3a4edf10b94ba3d7699b0a7e') in 0.103483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3321
+========================================================================
+Received Import Request.
+  Time since last request: 11.107188 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745f1ac3ae1a5070d56defc7c0bac683') in 0.057281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3322
+========================================================================
+Received Import Request.
+  Time since last request: 14.362991 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Jacob) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '11d182c12300aead3c65acdb426bfc26') in 0.068215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3323
+========================================================================
+Received Import Request.
+  Time since last request: 16.724015 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(2ec658d8e3b4aac4797ff8e6b4dd9c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aec81046257c75a8865f4f784cbd7f6') in 0.068077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3322
+========================================================================
+Received Import Request.
+  Time since last request: 2.475631 seconds.
+  path: Assets/Player Model&Anim/xd.anim
+  artifactKey: Guid(6b8b98e54822a624ca4ccc3083e707d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/xd.anim using Guid(6b8b98e54822a624ca4ccc3083e707d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a727893544c210521937f48178d69a') in 0.001566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 64.544286 seconds.
+  path: Assets/Player Model&Anim/Jacob.controller
+  artifactKey: Guid(fc610de86eeb97d46903b0087ec2e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.controller using Guid(fc610de86eeb97d46903b0087ec2e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a68e4c55fa0d88248e24a8cafad24e') in 0.004191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.643 seconds
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.719 seconds
+Domain Reload Profiling: 2357ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1720ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3655.
+Memory consumption went from 136.0 MB to 136.0 MB.
+Total: 5.019100 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.446500 ms MarkObjects: 3.967100 ms  DeleteObjects: 0.086100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 628.818851 seconds.
+  path: Assets/Player Model&Anim/JacobWithoutRig.fbx
+  artifactKey: Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/JacobWithoutRig.fbx using Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f754d7d26ac63e84398f0d4c03910e4') in 0.605658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 10.729926 seconds.
+  path: Assets/Player Model&Anim/New Prefab.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/New Prefab.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6bda505e365651a15ee4c52d768e2e') in 0.002111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.606273 seconds.
+  path: Assets/Player Model&Anim/New Prefab.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/New Prefab.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2845318de272ad748b49cbc0ad23f43d') in 0.021805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 361
+========================================================================
+Received Import Request.
+  Time since last request: 5.680762 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ff3a5cdb5ed714e7b568eb1cda95f5') in 0.015225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 361
+========================================================================
+Received Import Request.
+  Time since last request: 71.674548 seconds.
+  path: Assets/Player Model&Anim/OtherJacob.prefab
+  artifactKey: Guid(9cda6905af839214ab1b72b180b71b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/OtherJacob.prefab using Guid(9cda6905af839214ab1b72b180b71b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a1ca019d1d428ff87929a665fc7b74') in 0.002014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.133220 seconds.
+  path: Assets/Player Model&Anim/OtherJacob.prefab
+  artifactKey: Guid(9cda6905af839214ab1b72b180b71b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/OtherJacob.prefab using Guid(9cda6905af839214ab1b72b180b71b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9655f8dd221cb5f7ae70620b04a2af97') in 0.027093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 469
+========================================================================
+Received Import Request.
+  Time since last request: 33.205785 seconds.
+  path: Assets/Player Model&Anim/JacobWithoutRig.fbx
+  artifactKey: Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/JacobWithoutRig.fbx using Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fde336b1009bfb15951732f37b4caeb') in 0.417336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 204
+========================================================================
+Received Import Request.
+  Time since last request: 105.034587 seconds.
+  path: Assets/Player Model&Anim/JacobWithoutRig.fbx
+  artifactKey: Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/JacobWithoutRig.fbx using Guid(6cebb201e22a7d34fa9ba86e8be82937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7e980e800bc51bb6ea111a8ccbe40b') in 0.427730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 1141.061009 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b019dfad75bc84e39517b8ecd923dbc6') in 0.495350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 262
+========================================================================
+Received Import Request.
+  Time since last request: 564.712630 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72b8cc5fc8992935581118eb199861f') in 0.003512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.128957 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2cb5ab1d3046e4933f6bda1cd055f5') in 0.813432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 264
+========================================================================
+Received Import Request.
+  Time since last request: 14.260455 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd009bcc3287383ae41516e5c2d5de9') in 0.805910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 264
+========================================================================
+Received Import Request.
+  Time since last request: 6.160768 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393b59bceda41a8faf5cb24b1715853a') in 0.038548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 480
+========================================================================
+Received Import Request.
+  Time since last request: 41.753747 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd531f0d0f41a94356630370fcb39b703') in 0.023591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 480
+========================================================================
+Received Import Request.
+  Time since last request: 73.682184 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9328b77c95f70b389f5b235e530db5a2') in 0.743683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 264
+========================================================================
+Received Import Request.
+  Time since last request: 26.218527 seconds.
+  path: Assets/Player Model&Anim/Idle.anim
+  artifactKey: Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Idle.anim using Guid(1cb8524a76395044b85a321bb02048c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9536732047ce4957aa142408771d02df') in 0.004917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 497.641316 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle (2).fbx
+  artifactKey: Guid(3af05e55fa1654f408c646ab525080b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle (2).fbx using Guid(3af05e55fa1654f408c646ab525080b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c2d492a6d77debce77f28a2c5a9a7') in 0.322884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 8.532745 seconds.
+  path: Assets/Player Model&Anim/xdd.anim
+  artifactKey: Guid(1fd1fcd40e01df348b315c6e141f8eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/xdd.anim using Guid(1fd1fcd40e01df348b315c6e141f8eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb06fbe04490c6464e68429d4f88cb55') in 0.001620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.174525 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle (2).fbx
+  artifactKey: Guid(3af05e55fa1654f408c646ab525080b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle (2).fbx using Guid(3af05e55fa1654f408c646ab525080b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892568e118c2a73fdca3f99f3c19f8ba') in 0.288521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 16.609660 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1b64848c4db0dbaac480506ee8d6fd') in 0.002897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.879555 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ef09db2cb983cfa75b822702cbd390') in 0.025351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 316
+========================================================================
+Received Import Request.
+  Time since last request: 8.872596 seconds.
+  path: Assets/Player Model&Anim/New Material.mat
+  artifactKey: Guid(6e035896c6195824f9d7caf1be91d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/New Material.mat using Guid(6e035896c6195824f9d7caf1be91d3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89ed90a1b4c13643c68694d6376d80f') in 0.026994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.729660 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe85ae01955f1e263434f20bb46ff40') in 0.061729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 9.704392 seconds.
+  path: Assets/LowPolyWeapons/Materials/colors.mat
+  artifactKey: Guid(6e66b13207921e5499d27163f79a764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyWeapons/Materials/colors.mat using Guid(6e66b13207921e5499d27163f79a764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69665606c0f3e1535c69e3d0aeaab4ff') in 0.033546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.431518 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1c6c4f770754ee3355476a144a2ead') in 0.002407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.029340 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd770f4b0b75141e5e9c463bbaa8698') in 0.028816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 316
+========================================================================
+Received Import Request.
+  Time since last request: 378.606494 seconds.
+  path: Assets/Player Model&Anim/jacobFbxTRY.fbx
+  artifactKey: Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/jacobFbxTRY.fbx using Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e37d02678520fbabb7f21866363a9c') in 0.174676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 77.419638 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc4efab884a05c7f7c939805739bf87') in 0.329950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 164
+========================================================================
+Received Import Request.
+  Time since last request: 252.476791 seconds.
+  path: Assets/Player Model&Anim/jacobFbxTRY.fbx
+  artifactKey: Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/jacobFbxTRY.fbx using Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e34203eb15b1636c5781080eb71110') in 0.210520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 199.208571 seconds.
+  path: Assets/Player Model&Anim/jacobFbxTRY.fbx
+  artifactKey: Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/jacobFbxTRY.fbx using Guid(2c19dafef22987a48a2cd0bb12bc740a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1406cec89424c72f3d65c33230bca22d') in 0.169876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 238.055370 seconds.
+  path: Assets/Player Model&Anim/jacobModel.fbx
+  artifactKey: Guid(7df148b7b2ea57f49a06783766b6f5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/jacobModel.fbx using Guid(7df148b7b2ea57f49a06783766b6f5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fde0aa7b57948caa92680aa3a4d8c2') in 0.306165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 39.889361 seconds.
+  path: Assets/Player Model&Anim/jacobModel.fbx
+  artifactKey: Guid(7df148b7b2ea57f49a06783766b6f5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/jacobModel.fbx using Guid(7df148b7b2ea57f49a06783766b6f5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b1713e075780cb6f2f673e2b854e4a') in 0.300327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 196
+========================================================================
+Received Import Request.
+  Time since last request: 77.500244 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff5d5a5659ed88787cfb5fef29b0886') in 0.341154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 163
+========================================================================
+Received Import Request.
+  Time since last request: 106.104424 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a312fdef739f9ce42f6a90b943f21f') in 0.293364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 8.287183 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57d491a7abf846cf45f43cc937cd785') in 0.224199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 48.285773 seconds.
+  path: Assets/Player Model&Anim/Sword And Shield Idle.fbx
+  artifactKey: Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Sword And Shield Idle.fbx using Guid(43a6a83f15b9e43468acafddbec213a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58a65315b3a9eebfbeefba0d56e5aca') in 0.300073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 77.187359 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c34dc4be3f35f99aa65d9da49c2033') in 0.002499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.944301 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfff4879f9fade25f21c0ba42183448e') in 0.025320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 366
+========================================================================
+Received Import Request.
+  Time since last request: 3.315548 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Jacob) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: 'df48f91dac173f528544eff02f449776') in 0.044861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 367
+========================================================================
+Received Import Request.
+  Time since last request: 133.522763 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f667d4cf83c6caffc5aaa8cbb5d0c53') in 0.023512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 364
+========================================================================
+Received Import Request.
+  Time since last request: 3.958740 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Jacob) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+ -> (artifact id: '09ab364d31882f75e76fba644d29d369') in 0.018525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 365
+========================================================================
+Received Import Request.
+  Time since last request: 147.637787 seconds.
+  path: Assets/Player Model&Anim/Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Standing Melee Attack Horizontal.fbx using Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ac51ddfd76d5fd8cfb7fdd2d0e50f6') in 0.300362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 24.958591 seconds.
+  path: Assets/Player Model&Anim/yatay vuruş.fbx
+  artifactKey: Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/yatay vuruş.fbx using Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c52ff399f594943663f720b667274fd') in 0.274742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 8.149237 seconds.
+  path: Assets/Player Model&Anim/yatay vuruş.fbx
+  artifactKey: Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/yatay vuruş.fbx using Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25109586a03b88c09eac9135b713c15') in 0.232103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 30.947551 seconds.
+  path: Assets/Player Model&Anim/yatay vuruş.fbx
+  artifactKey: Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/yatay vuruş.fbx using Guid(2eae9cb44b540a0408ec51b19b1eab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4551d84fd7a56982a03520f62b62dac4') in 0.295085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 195
+========================================================================
+Received Import Request.
+  Time since last request: 123.025544 seconds.
+  path: Assets/Player Model&Anim/Jacob.prefab
+  artifactKey: Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Model&Anim/Jacob.prefab using Guid(6538869ea705fca47985067982d1d41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab6e52dcfa96eef5bf0cd1eff44f5a1') in 0.034069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
